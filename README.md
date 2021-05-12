@@ -1,2 +1,0 @@
-# cs350_EgeOztas
- 
