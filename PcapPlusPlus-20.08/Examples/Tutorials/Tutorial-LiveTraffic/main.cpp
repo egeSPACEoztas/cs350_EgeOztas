@@ -151,7 +151,7 @@ struct PacketInfo {
 				SSH
 		*/
 		// first let's go over the layers one by one and find out its type, its total length, its header length and its payload length
-		printf("+++++++Started consuming a new packet. It's Packet No is: %d +++++++++++\n", NoOfPacket++);
+		printf("+++++++Started consuming a new packet. It's Packet No is: %d +++++++++++\n", ++NoOfPacket);
 		
 		if (packet.isPacketOfType(pcpp::Ethernet))
 			protocol = "Ethernnet";
